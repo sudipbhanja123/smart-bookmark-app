@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global app-level defaults shared across all pages/components. */
+body {
+  @apply bg-slate-100 text-slate-900;
+}
